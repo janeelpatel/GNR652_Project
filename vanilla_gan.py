@@ -187,6 +187,8 @@ for epoch in range(num_epochs):
     test_images = vectors_to_images(generator(noise(1))).data.cpu()
     plt.imshow(test_images.view(28,28)) # display one generated image per epoch
     plt.show()
+	# replace with opencv for better display capabilities
+	# keep plt.imshow if
     print("Epoch = " + "{}/{}".format(epoch+1, num_epochs))
     print("D_Err = ", round(d_error.item(),3)) # Discriminator Error for current epoch
     print("G_Err = ", round(g_error.item(),3)) # Generator Error for current epoch
