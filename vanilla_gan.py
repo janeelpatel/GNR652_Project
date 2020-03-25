@@ -199,7 +199,7 @@ if os.path.exists(result_dir) == False:
 if os.path.exists(os.path.join(result_dir, 'Trained_Model')) == False:
 	os.makedirs(os.path.join(result_dir, 'Trained_Model'))
 
-model_d_path = os.path.join(result_dir, 'Trained_Model', 'Discriminator')
-model_d_path = os.path.join(result_dir, 'Trained_Model', 'Generator')
-torch.save(discriminator.state_dict(), model_d_path)
-torch.save(generator.state_dict(), model_g_path)
+model_d_path = os.path.join(result_dir, 'Trained_Model', 'Discriminator') # location where discriminator is saved
+model_d_path = os.path.join(result_dir, 'Trained_Model', 'Generator') # location where generator is saved
+torch.save(discriminator.state_dict(), model_d_path) # save discriminator
+torch.save(generator.state_dict(), model_g_path) # save generator
