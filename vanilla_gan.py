@@ -190,3 +190,16 @@ for epoch in range(num_epochs):
     print("Epoch = " + "{}/{}".format(epoch+1, num_epochs))
     print("D_Err = ", round(d_error.item(),3)) # Discriminator Error for current epoch
     print("G_Err = ", round(g_error.item(),3)) # Generator Error for current epoch
+	
+result_dir =  # REQUIRED! : directory location where the model will get saved
+
+if os.path.exists(result_dir) == False:
+    os.makedirs(result_dir)
+
+if os.path.exists(os.path.join(result_dir, 'Trained_Model')) == False:
+	os.makedirs(os.path.join(result_dir, 'Trained_Model'))
+
+model_d_path = os.path.join(result_dir, 'Trained_Model', 'Discriminator')
+model_d_path = os.path.join(result_dir, 'Trained_Model', 'Generator')
+torch.save(discriminator.state_dict(), model_d_path)
+torch.save(generator.state_dict(), model_g_path)
