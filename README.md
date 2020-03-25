@@ -2,7 +2,7 @@
 
 ## Implementations
 
-[Vanilla GAN](https://arxiv.org/abs/1406.2661) by Ian Goodfellow et al.(GAN implemented using linear fully-connected layers and non-linear activation functions, trained on MNIST to generate realistic looking images of hand-written digits)
+[Vanilla GAN](https://arxiv.org/abs/1406.2661) by Ian Goodfellow et al. (GAN implemented using linear fully-connected layers and non-linear activation functions, trained on MNIST to generate realistic looking images of hand-written digits)
 
 [DCGAN](https://arxiv.org/abs/1511.06434) by Radford et al. (GAN implemented using CNNs, trained on CelebA to generate images which look similar to the training data) 
 
