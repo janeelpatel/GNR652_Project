@@ -26,4 +26,4 @@ The code for training and testing the network's predictions is attached [above](
 
 Note that for both cases, the top image is fed into the completion network, while the bottom image is the reconstructed (/inpainted) image for the given input.
 
-Training for a very few number of epochs explains the blurry texture obtained in the impainted portion (/mask). This could be because the model has still not quite converged to its global optimum but oscillates around a sub-optimal point
+Training for a very few number of epochs explains the blurry texture obtained in the impainted portion (/mask). This could be because the model has still not quite converged to its global optimum but oscillates around a sub-optimal point. The model still does a decent job when it comes to reconstructing eyes in the masked region.
