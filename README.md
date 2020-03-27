@@ -22,4 +22,6 @@ The code for training and testing the network's predictions is attached [above](
 
 ### Results
 
-Under Construction!
+![](https://github.com/janeelpatel/GNR652_Project/blob/master/test1.png) ![](https://github.com/janeelpatel/GNR652_Project/blob/master/test2.png)
+
+Note that for both cases, the top image is fed into the completion network, while the bottom image is the reconstructed (/inpainted) image for the given input.
