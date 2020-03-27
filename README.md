@@ -19,3 +19,7 @@ The code for training and testing the network's predictions is attached [above](
 * Context Discriminators (Local and Global) : The global context discriminator takes as an input the entire image rescaled to 256×256 pixels. It consists of six convolutional layers and a single fully-connected layer that outputs a single 1024-dimensional vector. The local context discriminator follows the same pattern, except that the input is a 128×128-pixel image patch centered around the completed region. In case the image is not a completed image, a random patch of the image is selected, as there is no completed region to center it on.
 
 ![Overview of the architecture for image completion learning](https://github.com/janeelpatel/GNR652_Project/blob/master/glcic_arch.png)
+
+### Results
+
+Under Construction!
