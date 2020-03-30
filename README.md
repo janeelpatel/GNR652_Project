@@ -26,7 +26,7 @@ The code for training and testing the network's predictions is attached [above](
 
 Here, some random rectangular patches in the test image are replaced with the mean pixel value of respective channels, of the training image set (the same was done while training the network). These modified images are then input to the completion network and the output is observed.
 
-![](https://github.com/janeelpatel/GNR652_Project/blob/master/test1.png) ![](https://github.com/janeelpatel/GNR652_Project/blob/master/test2.png) ![](https://github.com/janeelpatel/GNR652_Project/blob/master/test3.png)
+![](https://github.com/janeelpatel/GNR652_Project/blob/master/test1.png) ![](https://github.com/janeelpatel/GNR652_Project/blob/master/test2.png) ![](https://github.com/janeelpatel/GNR652_Project/blob/master/test3.png) ![](https://github.com/janeelpatel/GNR652_Project/blob/master/test4.png) ![](https://github.com/janeelpatel/GNR652_Project/blob/master/test5.png)
 
 Note that for all three cases, the top image is fed into the completion network, while the bottom image is the reconstructed (/inpainted) image for the given input.
 
